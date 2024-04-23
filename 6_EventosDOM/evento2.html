@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style3.css">
+ <title>Document</title>
+</head>
+<body>
+  <div onmouseenter='pintarPink()' id="d2">
+    conteudo
+  </div> 
+  <button id="botao" onclick="pintarVerde()"> Alterar a cor </button>
+  <button onclick="pintarAqua()"> Voltar a cor original </button>
+  <script>
+    var d2 = window.document.getElementById("d2");
+
+    function pintarVerde(){
+      d2.style.backgroundColor = 'gray';
+    }
+
+    function pintarPink(){
+      d2.style.backgroundColor = 'pink';
+    }
+
+    function pintarAqua(){
+     d2.style.backgroundColor = 'aqua';
+   }
+  </script>
+
+ <script src="index.js"></script>
+
+</body>
+</html>
