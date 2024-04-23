@@ -1,0 +1,119 @@
+
+*{
+ margin: 0;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#faixa_topo{
+ background-color: #FFD900;
+ height: 118px;
+
+}
+
+#logo-topo1{
+ position:relative;
+ top:0px; 
+ left:90px;
+}
+
+ #logo-topo2{
+ position:absolute;
+ top:20px;
+ left:50px;
+}
+
+#secaovideo{
+ display: grid;
+ grid-template-columns: 50% auto;
+}
+
+#txt-vd1{
+ color: #F3C61F;
+ font-size: 70px;
+ width: 678;
+
+ text-align: center;
+ margin-top: 20px;
+}
+
+#txt-vd2{
+ color: #ffffff;
+ text-align: center;
+ font-size: 30px;
+}
+
+#txt-vd3{
+ color: #ffffff;
+ text-align: center;
+ font-size: 28px;
+ margin-top: 20px;
+ line-height: 35px;
+ 
+}
+
+#secaotextovideo{
+  background-color: #514988;
+}
+
+#blocovideo {
+ text-align: center;
+ font-size: 10px;
+}
+
+#video{
+ width: 800px;
+ border-radius: 10px;
+ margin-top: 30px;
+ 
+ 
+}
+
+#rodape{
+ display: grid;
+ grid-template-columns: 50% auto;
+}
+
+#txt-rodape{
+ color: #F3C61F;
+ text-align: center;
+ font-size: 20px;
+ margin-top: 20px;
+ line-height: 35px;
+}
+
+button:hover {
+    background: #3d357a;
+    cursor:pointer;
+    color: #F3C61F;
+    box-shadow: 0px 5px 15px black;
+}
+
+button{
+ background: #514988;
+ width: 596px;
+ height: 148px;
+ margin-top: 80px;
+ margin-left: 130px;
+ border-radius: 20px;
+ opacity: 0px;
+ font-size: 40px;
+ color: #ffffff;
+}
+
+.timer{
+ display: grid;
+ grid-auto-flow: column;
+ margin-top: 20px;
+ font-size: 30px;
+ color: #514988;
+}
+.subtxt{
+  font-size: 25px;
+}
+
+#txt-counter{
+ margin-top: 20px;
+ font-size: 30px;
+ color: #E33881;
+ text-transform: uppercase;
+}
